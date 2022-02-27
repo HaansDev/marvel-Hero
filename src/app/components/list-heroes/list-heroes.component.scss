@@ -1,0 +1,46 @@
+.colum-heroes {
+  width: 80%;
+  margin: auto;
+  .row {
+    padding: 5% 0;
+  }
+  .card {
+    margin-bottom: 35px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transform: translateY(-10px);
+    }
+    .card-image {
+      .card-img-top {
+        border-radius: 1rem;
+        transition: all 0.3s;
+        &:hover {
+          filter: opacity(.5);
+        }
+      }
+      .btn {
+        position: absolute;
+        right: 15px;
+        bottom: 85px;
+        background-color: #EC1D24;
+        border-color: #EC1D24;
+        color: #FFF;
+        font-weight: 700;
+        border-radius: 25px;
+        transition: all 0.3s;
+      }
+    }
+    .card-body {
+      .card-title {
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          color: #EC1D24;
+        }
+      }
+    }
+  }
+}
