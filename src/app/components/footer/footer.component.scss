@@ -1,0 +1,28 @@
+@font-face {
+  font-family: marvel-regular;
+  src: url(../../../assets/font/Marvel-Regular.ttf) format("truetype");
+}
+footer {
+  background-color: #151515;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .logo {
+    text-align: center;
+    span {
+      font-family: 'marvel-regular';
+      background-color: #EC1D24;
+      font-size: 55px;
+      color: #FFF;
+      padding: 10px 5px 0 5px;
+    }
+  }
+  .info {
+    text-align: center;
+    padding-top: 10px;
+    span {
+      color: #FFF;
+    }
+  }
+}
